@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.codebind.App">
+  <grid id="27dc6" binding="jPanelMain" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="810" height="629"/>
+    </constraints>
+    <properties>
+      <preferredSize width="700" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="1f4c" binding="menuPanel" layout-manager="FlowLayout" hgap="2" vgap="2" flow-align="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <minimumSize width="20" height="20"/>
+          <preferredSize width="35" height="30"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="97d5e" class="javax.swing.JMenuBar" binding="menuBar" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints/>
+            <properties>
+              <preferredSize width="670" height="25"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="4e1fb" class="javax.swing.JMenu" binding="File" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints/>
+                <properties>
+                  <text value="File"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="956b4" class="javax.swing.JMenuItem" binding="exitMenuItem">
+                    <constraints/>
+                    <properties>
+                      <selected value="false"/>
+                      <text value="Exit"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="d2b05" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints border-constraint="South"/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <grid id="262db" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <vspacer id="eb5a0">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="7110b" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <vspacer id="97d04">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="d0b7a">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

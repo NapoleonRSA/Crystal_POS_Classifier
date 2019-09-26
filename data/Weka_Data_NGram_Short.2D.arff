@@ -1,0 +1,169 @@
+@relation 'DocClass-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute class {AOA,ASA,ASP,BS,KN,KO,LB,LO,NA,NSE,NSED,PB,PDOENP,PDOEW,PTEB,PTEDP,RK,RV,RWD,SVS,TRAB,UPI,UPO,UPS,UPW,VTHOG,VTHOK,VTUOM,VTUOP,VUOT,VVHOG}
+@attribute jou numeric
+@attribute naaste numeric
+@attribute said-kantoor numeric
+@attribute aansoekvorm numeric
+@attribute die numeric
+@attribute elektroniese numeric
+@attribute fisies numeric
+@attribute geleã« numeric
+@attribute is numeric
+@attribute onderneming numeric
+@attribute aansoek numeric
+@attribute bv numeric
+@attribute deur numeric
+@attribute en numeric
+@attribute nie numeric
+@attribute oorweeg numeric
+@attribute plot numeric
+@attribute af numeric
+@attribute kry numeric
+@attribute nommer numeric
+@attribute of numeric
+@attribute straatnaam numeric
+@attribute word numeric
+@attribute anders numeric
+@attribute sal numeric
+@attribute aansoeker numeric
+@attribute aansoekgids numeric
+@attribute afdeling numeric
+@attribute blokkie numeric
+@attribute doen numeric
+@attribute handelsnaam numeric
+@attribute in numeric
+@attribute laai numeric
+@attribute lisensiã«ringsproses numeric
+@attribute merk numeric
+@attribute plek numeric
+@attribute raadpleeg numeric
+@attribute van numeric
+@attribute verstrek numeric
+@attribute volgende numeric
+@attribute voorstad numeric
+@attribute waar numeric
+@attribute waarin numeric
+@attribute derde numeric
+@attribute n numeric
+@attribute client numeric
+@attribute manufacturer numeric
+@attribute moet numeric
+@attribute om numeric
+@attribute party numeric
+@attribute se numeric
+@attribute self numeric
+@attribute te numeric
+@attribute by numeric
+@attribute dit numeric
+@attribute ingevul numeric
+@attribute particulars numeric
+@attribute agoa numeric
+@attribute for numeric
+@attribute onder numeric
+@attribute registration numeric
+@attribute types numeric
+@attribute help numeric
+@attribute <EMPTY> numeric
+
+@data
+{0 VTHOG,5 1,33 1,64 1}
+{0 LB,5 1,6 1,33 1}
+{0 ASA,4 1,5 1,6 1}
+{0 NSE,4 1,6 1,18 1}
+{0 UPW,4 1,18 1,21 1}
+{0 KN,18 1,19 1,21 1}
+{0 VTHOG,19 1,21 1,55 1}
+{0 PDOENP,19 1,54 1,55 1}
+{0 SVS,1 1,54 1,55 1}
+{0 PTEB,1 1,2 1,54 1}
+{1 1,2 1,3 1}
+{0 NSE,2 1,3 1,5 1}
+{0 LB,3 1,4 1,5 1}
+{0 NSE,4 1,5 1,48 1}
+{0 VTUOM,4 1,13 1,48 1}
+{0 SVS,5 1,13 1,48 1}
+{0 LB,5 1,13 1,26 1}
+{0 NSE,5 1,26 1,52 1}
+{0 PDOEW,26 1,52 1,56 1}
+{0 VVHOG,23 1,52 1,56 1}
+{0 VTUOP,14 1,23 1,56 1}
+{0 KN,14 1,15 1,23 1}
+{0 BS,13 1,14 1,15 1}
+{0 SVS,13 1,15 1,45 1}
+{0 LO,13 1,44 1,45 1}
+{0 TRAB,44 1,45 1,50 1}
+{0 NSE,15 1,44 1,50 1}
+{0 UPO,15 1,24 1,50 1}
+{0 KO,15 1,24 1,25 1}
+{0 VUOT,5 1,24 1,25 1}
+{0 LB,5 1,11 1,25 1}
+{0 NSE,5 1,11 1,15 1}
+{0 BS,11 1,15 1,16 1}
+{0 VTHOG,15 1,16 1,23 1}
+{0 VTUOP,15 1,16 1,23 1}
+{0 UPO,15 1,23 1,37 1}
+{0 VTHOG,5 1,15 1,37 1}
+{0 LB,5 1,27 1,37 1}
+{0 NSE,5 1,27 1,49 1}
+{0 SVS,1 1,27 1,49 1}
+{0 PTEDP,1 1,13 1,49 1}
+{0 SVS,1 1,5 1,13 1}
+{0 LB,5 1,13 1,34 1}
+{0 NSE,5 1,34 1,53 1}
+{0 UPI,34 1,53 1,63 1}
+{0 VTHOG,30 1,53 1,63 1}
+{0 VTHOG,5 1,30 1,63 1}
+{0 LB,5 1,30 1,40 1}
+{0 NA,5 1,32 1,40 1}
+{0 SVS,5 1,32 1,40 1}
+{0 LB,5 1,28 1,32 1}
+{0 NSE,5 1,28 1,46 1}
+{0 RV,28 1,46 1,62 1}
+{0 RV,35 1,46 1,62 1}
+{0 VTHOG,5 1,35 1,62 1}
+{0 LB,5 1,29 1,35 1}
+{0 NSED,5 1,29 1,47 1}
+{0 RV,29 1,47 1,59 1}
+{0 RV,47 1,58 1,59 1}
+{0 RK,58 1,59 1,60 1}
+{0 SVS,58 1,60 1,61 1}
+{0 RV,39 1,60 1,61 1}
+{0 VTHOG,5 1,39 1,61 1}
+{0 LB,5 1,39 1,40 1}
+{0 NA,5 1,32 1,40 1}
+{0 SVS,5 1,32 1,40 1}
+{0 LB,5 1,28 1,32 1}
+{0 NSE,5 1,28 1,47 1}
+{0 RV,28 1,47 1,59 1}
+{0 RV,47 1,58 1,59 1}
+{0 RK,57 1,58 1,59 1}
+{0 RV,1 1,57 1,58 1}
+{0 PTEB,1 1,10 1,57 1}
+{0 NSE,1 1,10 1,51 1}
+{0 UPS,10 1,31 1,51 1}
+{0 NSE,5 1,31 1,51 1}
+{0 LB,5 1,31 1,36 1}
+{0 NSE,5 1,36 1,42 1}
+{0 PB,5 1,36 1,42 1}
+{0 LB,5 1,10 1,42 1}
+{0 NSE,5 1,7 1,10 1}
+{0 BS,7 1,8 1,10 1}
+{0 ASP,7 1,8 1,9 1}
+{0 VTHOK,8 1,9 1,12 1}
+{0 BS,9 1,12 1,17 1}
+{0 NSE,5 1,12 1,17 1}
+{0 LB,5 1,17 1,22 1}
+{0 NSE,5 1,14 1,22 1}
+{0 KN,14 1,20 1,22 1}
+{0 RWD,14 1,20 1,38 1}
+{0 SVS,5 1,20 1,38 1}
+{0 LB,5 1,10 1,38 1}
+{0 NSE,5 1,10 1}
+{0 LB,5 1,10 1,41 1}
+{0 NSE,5 1,41 1,43 1}
+{0 PB,5 1,41 1,43 1}
+{0 LB,5 1,10 1,43 1}
+{0 NSE,5 1,8 1,10 1}
+{0 ASP,8 1,9 1,10 1}
+{0 VTHOK,5 1,8 1,9 1}
