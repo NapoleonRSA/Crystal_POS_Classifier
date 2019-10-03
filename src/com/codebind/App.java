@@ -1,6 +1,7 @@
 package com.codebind;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -20,6 +21,8 @@ public class App extends JFrame {
     private JMenuBar menuBar;
     private JMenu File;
     private JMenuItem exitMenuItem;
+    private JMenuItem perceptronSettingsMenuItem;
+    private JMenu SettingMenu;
     private JMenuBar MnuBar = new JMenuBar();
     private JMenu MnuOne = new JMenu("File");
     private JMenuItem exitApp = new JMenuItem("Exit");
@@ -98,7 +101,14 @@ public class App extends JFrame {
         exitMenuItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                textArea1.setText("Hello Danie");
+                System.exit(0);
+            }
+        });
+        perceptronSettingsMenuItem.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(null, getPanel(), "Output : ",
+                        JOptionPane.INFORMATION_MESSAGE);
             }
         });
     }
@@ -120,5 +130,21 @@ public class App extends JFrame {
 
     public ImageIcon createImage(String path) {
         return new ImageIcon(path);
+    }
+
+    private JPanel getPanel() {
+        JPanel panel = new JPanel(new GridLayout(0, 1, 5, 5));
+        JLabel nameLabel = getLabel("Your Name : java2s.com" );
+        JLabel ageLabel = getLabel("Your Age : 12");
+        JLabel yearLabel = getLabel("Your Birth Year : 2004");
+        panel.add(nameLabel);
+        panel.add(ageLabel);
+        panel.add(yearLabel);
+
+        return panel;
+    }
+
+    private JLabel getLabel(String title) {
+        return new JLabel(title);
     }
 }
